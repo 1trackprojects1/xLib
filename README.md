@@ -24,12 +24,12 @@ Traceback (most recent call last):
     import shodan
 ImportError: No module named shodan
 ```
-To do this run the following commands on your system.
-```pip install json```
-```pip install socket```
-```pip install paramiko```
-```pip install shodan```
-These will install all the modules required to run this script. Once all this is done run this command to finnaly start the xLib Framework.
+To do this run the following commands on your system. <br>
+```pip install json```<br>
+```pip install socket```<br>
+```pip install paramiko```<br>
+```pip install shodan```<br>
+These will install all the modules required to run this script. Once all this is done run this command to finnaly start the xLib Framework.<br>
 ```python xLib.py```
 
 ## TODOs Are Listed Bellow:
