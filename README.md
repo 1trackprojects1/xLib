@@ -12,7 +12,7 @@ root@trackprojects:~# python xLib.py
 Enter payload: id 
 --------------------------------------------------
 [+] Found : 6221 devices!
-[-] Exploited!
+[-] 106.241.168.83 Exploited!
 ```
 
 ## Installation
