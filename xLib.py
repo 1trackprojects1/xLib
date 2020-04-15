@@ -11,7 +11,7 @@ import paramiko
 import socket
 
 # // SHODAN.IO Module {setup}
-SHODAN_API_KEY = 'M4Vm4GwfgipFQJ1jjNwAGudJStlFyVnn'
+SHODAN_API_KEY = '' # your shodan api key
 api = shodan.Shodan(SHODAN_API_KEY)
 
 print '[*] Welcome to xLib CLI. [*]'
