@@ -2,6 +2,8 @@
 >AIO Framework for exploiting libssh. Used for loading bots to a CNC botnet. Like
 Mirari & QBot.
 
+# Consider this project DEAD
+
 ## Interface & ToolPlay
 This is a CLI output of the program.
 ```
